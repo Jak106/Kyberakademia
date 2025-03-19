@@ -1,0 +1,240 @@
+FILE: ======== pass.dmp =======
+== LogonSession ==
+authentication_id 4594211 (461a23)
+session_id 2
+username smith
+domainname DESKTOP-B4BQDV4
+logon_server DESKTOP-B4BQDV4
+logon_time 2023-11-03T10:51:40.265050+00:00
+sid S-1-5-21-1395889485-1236021792-205362400-1003
+luid 4594211
+	== MSV ==
+		Username: smith
+		Domain: DESKTOP-B4BQDV4
+		LM: NA
+		NT: f632ab1d0128e12c5d2c340e5694cc85
+		SHA1: 37ff2312622b92e7f58fc88d15b12256f67f978a
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [461a23]==
+		username smith
+		domainname DESKTOP-B4BQDV4
+		password 1j76dfabtrsf3
+		password (hex)31006a0037003600640066006100620074007200730066003300000000000000
+	== Kerberos ==
+		Username: smith
+		Domain: DESKTOP-B4BQDV4
+	== WDIGEST [461a23]==
+		username smith
+		domainname DESKTOP-B4BQDV4
+		password 1j76dfabtrsf3
+		password (hex)31006a0037003600640066006100620074007200730066003300000000000000
+	== DPAPI [461a23]==
+		luid 4594211
+		key_guid efcf864e-edb7-4d60-be19-6177e35a6912
+		masterkey 680d622fb719dbf4386fe2fd2afd548b87c093b5d2af0335950c9db4cf60cc4457939612158876c09bd4c2a4cf54af106bd47b28c82af1be88f24b60f45c4e99
+		sha1_masterkey 9541194ff0553b8790859eb747873273cbdd7526
+
+== LogonSession ==
+authentication_id 4594182 (461a06)
+session_id 2
+username smith
+domainname DESKTOP-B4BQDV4
+logon_server DESKTOP-B4BQDV4
+logon_time 2023-11-03T10:51:40.265050+00:00
+sid S-1-5-21-1395889485-1236021792-205362400-1003
+luid 4594182
+	== MSV ==
+		Username: smith
+		Domain: DESKTOP-B4BQDV4
+		LM: NA
+		NT: f632ab1d0128e12c5d2c340e5694cc85
+		SHA1: 37ff2312622b92e7f58fc88d15b12256f67f978a
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [461a06]==
+		username smith
+		domainname DESKTOP-B4BQDV4
+		password 1j76dfabtrsf3
+		password (hex)31006a0037003600640066006100620074007200730066003300000000000000
+	== Kerberos ==
+		Username: smith
+		Domain: DESKTOP-B4BQDV4
+	== WDIGEST [461a06]==
+		username smith
+		domainname DESKTOP-B4BQDV4
+		password 1j76dfabtrsf3
+		password (hex)31006a0037003600640066006100620074007200730066003300000000000000
+
+== LogonSession ==
+authentication_id 4576510 (45d4fe)
+session_id 2
+username DWM-2
+domainname Window Manager
+logon_server 
+logon_time 2023-11-03T10:51:30.577537+00:00
+sid S-1-5-90-0-2
+luid 4576510
+	== WDIGEST [45d4fe]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [45d4fe]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 4576486 (45d4e6)
+session_id 2
+username DWM-2
+domainname Window Manager
+logon_server 
+logon_time 2023-11-03T10:51:30.577537+00:00
+sid S-1-5-90-0-2
+luid 4576486
+	== WDIGEST [45d4e6]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [45d4e6]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 4574329 (45cc79)
+session_id 2
+username UMFD-2
+domainname Font Driver Host
+logon_server 
+logon_time 2023-11-03T10:51:30.501015+00:00
+sid S-1-5-96-0-2
+luid 4574329
+	== WDIGEST [45cc79]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [45cc79]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 150691 (24ca3)
+session_id 1
+username smith
+domainname DESKTOP-B4BQDV4
+logon_server DESKTOP-B4BQDV4
+logon_time 2023-11-03T10:27:12.603975+00:00
+sid S-1-5-21-1395889485-1236021792-205362400-1003
+luid 150691
+
+== LogonSession ==
+authentication_id 150602 (24c4a)
+session_id 1
+username smith
+domainname DESKTOP-B4BQDV4
+logon_server DESKTOP-B4BQDV4
+logon_time 2023-11-03T10:27:12.603975+00:00
+sid S-1-5-21-1395889485-1236021792-205362400-1003
+luid 150602
+
+== LogonSession ==
+authentication_id 997 (3e5)
+session_id 0
+username LOCAL SERVICE
+domainname NT AUTHORITY
+logon_server 
+logon_time 2023-11-03T10:27:07.713141+00:00
+sid S-1-5-19
+luid 997
+	== Kerberos ==
+		Username: 
+		Domain: 
+
+== LogonSession ==
+authentication_id 996 (3e4)
+session_id 0
+username DESKTOP-B4BQDV4$
+domainname WORKGROUP
+logon_server 
+logon_time 2023-11-03T10:27:07.416171+00:00
+sid S-1-5-20
+luid 996
+	== WDIGEST [3e4]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: desktop-b4bqdv4$
+		Domain: WORKGROUP
+	== WDIGEST [3e4]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 25572 (63e4)
+session_id 0
+username UMFD-0
+domainname Font Driver Host
+logon_server 
+logon_time 2023-11-03T10:27:07.261123+00:00
+sid S-1-5-96-0-0
+luid 25572
+	== WDIGEST [63e4]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [63e4]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 23970 (5da2)
+session_id 0
+username 
+domainname 
+logon_server 
+logon_time 2023-11-03T10:27:07.103744+00:00
+sid None
+luid 23970
+
+== LogonSession ==
+authentication_id 999 (3e7)
+session_id 0
+username DESKTOP-B4BQDV4$
+domainname WORKGROUP
+logon_server 
+logon_time 2023-11-03T10:27:07.088151+00:00
+sid S-1-5-18
+luid 999
+	== WDIGEST [3e7]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: desktop-b4bqdv4$
+		Domain: WORKGROUP
+	== WDIGEST [3e7]==
+		username DESKTOP-B4BQDV4$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== DPAPI [3e7]==
+		luid 999
+		key_guid 721f374b-5f6e-4377-92c9-b38aa8d6adff
+		masterkey 2fdef3858f148b9c61b8ae835cd2fbf54498c3133ba0dd8e9ac21c736d4603001f6b3d170bf0e15de78b9d8db363b5c0f5a4bd298d74cb8bc3b6ab6b88d6b4eb
+		sha1_masterkey 7ab41cad90921de69dd86edda2f32c28be9503e5
+

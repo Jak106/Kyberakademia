@@ -1,0 +1,1 @@
+After running ```file``` command i found that it is ```Mini DuMP crash report, 18 streams, Fri Nov  3 10:55:59 2023, 0x461826 type```. This means dump can be performed using ```pypykatz```. After analysing dump i found that only password mentioned is: ```1j76dfabtrsf3```
