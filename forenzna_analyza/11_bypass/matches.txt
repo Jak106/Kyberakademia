@@ -1,0 +1,13 @@
+[*] Searching in log_1.txt
+    "message": "Creating Scriptblock text (1 of 1):\n[String]$program = \"cmd /c start powershell.exe\"\n\nScriptBlock ID: c2967623-182c-4fea-9076-969a8ee8c0da\nPath: ",
+        "script_block_text": "[String]$program = \"cmd /c start powershell.exe\""
+      "[String]$program = \"cmd /c start powershell.exe\""
+      "Creating Scriptblock text (1 of 1):\n[String]$program = \"cmd /c start powershell.exe\"\n\nScriptBlock ID: c2967623-182c-4fea-9076-969a8ee8c0da\nPath: "
+[*] Searching in log_2.txt
+[*] Searching in log_3.txt
+[*] Searching in log_4.txt
+[*] Searching in log_5.txt
+    "message": "Creating Scriptblock text (1 of 1):\nStart-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden\n\nScriptBlock ID: 15640bf6-3e15-4826-9337-b7fe53c8eb6c\nPath: ",
+        "script_block_text": "Start-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden"
+      "Start-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden"
+      "Creating Scriptblock text (1 of 1):\nStart-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden\n\nScriptBlock ID: 15640bf6-3e15-4826-9337-b7fe53c8eb6c\nPath: "

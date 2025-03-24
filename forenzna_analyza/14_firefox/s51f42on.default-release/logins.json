@@ -1,0 +1,27 @@
+{
+    "nextId": 2,
+    "logins": [
+      {
+        "id": 1,
+        "hostname": "http://flag.ctf",
+        "httpRealm": null,
+        "formSubmitURL": "",
+        "usernameField": "",
+        "passwordField": "",
+        "encryptedUsername": "MDIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECE7gjKCuAKqjBAjBh2V84kV3jg==",
+        "encryptedPassword": "MEoEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECFn4PHqyGel5BCD9tePWWrhHzqakbMr/8Qf9IC7wjg4Ai4wAddM0TmOOHw==",
+        "guid": "{8eb531a7-d511-42c3-b0fd-d10b7d3e8fb1}",
+        "encType": 1,
+        "timeCreated": 1702970171901,
+        "timeLastUsed": 1702970171901,
+        "timePasswordChanged": 1702970171901,
+        "timesUsed": 1,
+        "syncCounter": 1,
+        "everSynced": false,
+        "encryptedUnknownFields": "MDIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECCo+6tTtpu/kBAhI1hxrGlxXdg=="
+      }
+    ],
+    "potentiallyVulnerablePasswords": [],
+    "dismissedBreachAlertsByLoginGUID": {},
+    "version": 3
+  }

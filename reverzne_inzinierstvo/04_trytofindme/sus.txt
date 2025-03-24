@@ -1,0 +1,21 @@
+$ git show af7e7842b81685b99c572ff58bbb72984adb4eb7:ConfigurationFile.json 
+{
+
+        "token": "MzkuM3gQrJWypyAy Wow,you almost got it! Be attentive...",
+        "prefix": "~",
+        "lightNum": "1337",
+        "username": "d2hlcmUgYW0gSSwgdHJ5IHRvIGZpbmQgbWUgOik=",
+        "host": "127.0.0.1"
+
+}
+$ git show cd25a96cbdc86b5d6712ebd09ac60f220061a14e:ConfigurationFile.json 
+{
+
+        "token": "It has been changed, right? Continue searching...",
+        "prefix": "~",
+        "lightNum": "1337",
+        "username": "d2hlcmUgYW0gSSwgdHJ5IHRvIGZpbmQgbWUgOik=",
+        "host": "127.0.0.1"
+
+}
+

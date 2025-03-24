@@ -1,0 +1,261 @@
+{
+  "_index": "winlogbeat-000017",
+  "_id": "u8-9fowBHgouIlEulYuS",
+  "_version": 1,
+  "_score": 0,
+  "_source": {
+    "@timestamp": "2023-12-18T21:03:20.879Z",
+    "message": "Creating Scriptblock text (1 of 1):\n[String]$program = \"cmd /c start powershell.exe\"\n\nScriptBlock ID: c2967623-182c-4fea-9076-969a8ee8c0da\nPath: ",
+    "winlog": {
+      "provider_guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}",
+      "channel": "Microsoft-Windows-PowerShell/Operational",
+      "provider_name": "Microsoft-Windows-PowerShell",
+      "record_id": 188362,
+      "event_id": "4104",
+      "process": {
+        "pid": 4172,
+        "thread": {
+          "id": 14968
+        }
+      },
+      "task": "Execute a Remote Command",
+      "api": "wineventlog",
+      "computer_name": "WS-01.unsecure.biz",
+      "activity_id": "{34be8489-b017-0001-ac51-3d3517b0d901}",
+      "opcode": "On create calls",
+      "user": {
+        "identifier": "S-1-5-21-404578887-1719942888-398661523-1001",
+        "domain": "WS-01",
+        "name": "admin",
+        "type": "User"
+      },
+      "version": 1
+    },
+    "ecs": {
+      "version": "1.11.0"
+    },
+    "agent": {
+      "name": "WS-01",
+      "type": "winlogbeat",
+      "version": "7.15.1",
+      "hostname": "WS-01",
+      "ephemeral_id": "0fbe1143-afdc-49ca-95cd-0437bf3fb49f",
+      "id": "c6eea392-de6b-4c7f-a1cc-c480b97fbfe9"
+    },
+    "host": {
+      "hostname": "WS-01",
+      "architecture": "x86_64",
+      "os": {
+        "platform": "windows",
+        "version": "10.0",
+        "family": "windows",
+        "name": "Windows 10 Pro",
+        "kernel": "10.0.19041.2251 (WinBuild.160101.0800)",
+        "build": "19045.2251",
+        "type": "windows"
+      },
+      "name": "WS-01.unsecure.biz",
+      "id": "d8fec073-f2f8-41c0-9964-1292023d0ae5",
+      "ip": [
+        "fe80::7e39:9f13:7683:f5c1",
+        "172.31.51.11"
+      ],
+      "mac": [
+        "00:15:5d:19:8d:dc"
+      ]
+    },
+    "event": {
+      "category": [
+        "process"
+      ],
+      "type": [
+        "info"
+      ],
+      "created": "2023-12-18T21:03:22.011Z",
+      "code": "4104",
+      "kind": "event",
+      "provider": "Microsoft-Windows-PowerShell",
+      "action": "Execute a Remote Command",
+      "module": "powershell"
+    },
+    "log": {
+      "level": "verbose"
+    },
+    "powershell": {
+      "sequence": 1,
+      "total": 1,
+      "file": {
+        "script_block_id": "c2967623-182c-4fea-9076-969a8ee8c0da",
+        "script_block_text": "[String]$program = \"cmd /c start powershell.exe\""
+      }
+    },
+    "user": {
+      "id": "S-1-5-21-404578887-1719942888-398661523-1001"
+    }
+  },
+  "fields": {
+    "event.category": [
+      "process"
+    ],
+    "host.os.name.text": [
+      "Windows 10 Pro"
+    ],
+    "winlog.provider_guid": [
+      "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+    ],
+    "winlog.provider_name": [
+      "Microsoft-Windows-PowerShell"
+    ],
+    "host.hostname": [
+      "WS-01"
+    ],
+    "winlog.computer_name": [
+      "WS-01.unsecure.biz"
+    ],
+    "host.mac": [
+      "00:15:5d:19:8d:dc"
+    ],
+    "winlog.process.pid": [
+      4172
+    ],
+    "host.os.version": [
+      "10.0"
+    ],
+    "winlog.record_id": [
+      "188362"
+    ],
+    "host.os.name": [
+      "Windows 10 Pro"
+    ],
+    "log.level": [
+      "verbose"
+    ],
+    "agent.name": [
+      "WS-01"
+    ],
+    "host.name": [
+      "WS-01.unsecure.biz"
+    ],
+    "event.kind": [
+      "event"
+    ],
+    "powershell.file.script_block_text": [
+      "[String]$program = \"cmd /c start powershell.exe\""
+    ],
+    "winlog.activity_id": [
+      "{34be8489-b017-0001-ac51-3d3517b0d901}"
+    ],
+    "winlog.version": [
+      1
+    ],
+    "host.os.type": [
+      "windows"
+    ],
+    "user.id": [
+      "S-1-5-21-404578887-1719942888-398661523-1001"
+    ],
+    "agent.hostname": [
+      "WS-01"
+    ],
+    "powershell.sequence": [
+      1
+    ],
+    "host.architecture": [
+      "x86_64"
+    ],
+    "event.provider": [
+      "Microsoft-Windows-PowerShell"
+    ],
+    "event.code": [
+      "4104"
+    ],
+    "agent.id": [
+      "c6eea392-de6b-4c7f-a1cc-c480b97fbfe9"
+    ],
+    "ecs.version": [
+      "1.11.0"
+    ],
+    "powershell.file.script_block_id": [
+      "c2967623-182c-4fea-9076-969a8ee8c0da"
+    ],
+    "event.created": [
+      "2023-12-18T21:03:22.011Z"
+    ],
+    "agent.version": [
+      "7.15.1"
+    ],
+    "host.os.family": [
+      "windows"
+    ],
+    "powershell.total": [
+      1
+    ],
+    "winlog.process.thread.id": [
+      14968
+    ],
+    "host.os.build": [
+      "19045.2251"
+    ],
+    "winlog.user.type": [
+      "User"
+    ],
+    "host.ip": [
+      "fe80::7e39:9f13:7683:f5c1",
+      "172.31.51.11"
+    ],
+    "agent.type": [
+      "winlogbeat"
+    ],
+    "event.module": [
+      "powershell"
+    ],
+    "host.os.kernel": [
+      "10.0.19041.2251 (WinBuild.160101.0800)"
+    ],
+    "winlog.api": [
+      "wineventlog"
+    ],
+    "host.id": [
+      "d8fec073-f2f8-41c0-9964-1292023d0ae5"
+    ],
+    "winlog.user.identifier": [
+      "S-1-5-21-404578887-1719942888-398661523-1001"
+    ],
+    "winlog.task": [
+      "Execute a Remote Command"
+    ],
+    "winlog.user.domain": [
+      "WS-01"
+    ],
+    "message": [
+      "Creating Scriptblock text (1 of 1):\n[String]$program = \"cmd /c start powershell.exe\"\n\nScriptBlock ID: c2967623-182c-4fea-9076-969a8ee8c0da\nPath: "
+    ],
+    "winlog.event_id": [
+      "4104"
+    ],
+    "winlog.user.name": [
+      "admin"
+    ],
+    "event.action": [
+      "Execute a Remote Command"
+    ],
+    "@timestamp": [
+      "2023-12-18T21:03:20.879Z"
+    ],
+    "winlog.channel": [
+      "Microsoft-Windows-PowerShell/Operational"
+    ],
+    "host.os.platform": [
+      "windows"
+    ],
+    "event.type": [
+      "info"
+    ],
+    "winlog.opcode": [
+      "On create calls"
+    ],
+    "agent.ephemeral_id": [
+      "0fbe1143-afdc-49ca-95cd-0437bf3fb49f"
+    ]
+  }
+}

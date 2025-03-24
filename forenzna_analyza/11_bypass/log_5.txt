@@ -1,0 +1,261 @@
+{
+  "_index": "winlogbeat-000017",
+  "_id": "dM-_fowBHgouIlEuAY2k",
+  "_version": 1,
+  "_score": 0,
+  "_source": {
+    "@timestamp": "2023-12-18T21:04:54.372Z",
+    "ecs": {
+      "version": "1.11.0"
+    },
+    "agent": {
+      "type": "winlogbeat",
+      "version": "7.15.1",
+      "hostname": "WS-01",
+      "ephemeral_id": "0fbe1143-afdc-49ca-95cd-0437bf3fb49f",
+      "id": "c6eea392-de6b-4c7f-a1cc-c480b97fbfe9",
+      "name": "WS-01"
+    },
+    "host": {
+      "hostname": "WS-01",
+      "architecture": "x86_64",
+      "os": {
+        "platform": "windows",
+        "version": "10.0",
+        "family": "windows",
+        "name": "Windows 10 Pro",
+        "kernel": "10.0.19041.2251 (WinBuild.160101.0800)",
+        "build": "19045.2251",
+        "type": "windows"
+      },
+      "id": "d8fec073-f2f8-41c0-9964-1292023d0ae5",
+      "ip": [
+        "fe80::7e39:9f13:7683:f5c1",
+        "172.31.51.11"
+      ],
+      "mac": [
+        "00:15:5d:19:8d:dc"
+      ],
+      "name": "WS-01.unsecure.biz"
+    },
+    "winlog": {
+      "computer_name": "WS-01.unsecure.biz",
+      "user": {
+        "name": "admin",
+        "type": "User",
+        "identifier": "S-1-5-21-404578887-1719942888-398661523-1001",
+        "domain": "WS-01"
+      },
+      "api": "wineventlog",
+      "task": "Execute a Remote Command",
+      "provider_guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}",
+      "activity_id": "{34be8489-b017-0001-ab52-3d3517b0d901}",
+      "version": 1,
+      "process": {
+        "pid": 4172,
+        "thread": {
+          "id": 14968
+        }
+      },
+      "provider_name": "Microsoft-Windows-PowerShell",
+      "event_id": "4104",
+      "record_id": 188386,
+      "channel": "Microsoft-Windows-PowerShell/Operational",
+      "opcode": "On create calls"
+    },
+    "event": {
+      "category": [
+        "process"
+      ],
+      "type": [
+        "info"
+      ],
+      "action": "Execute a Remote Command",
+      "created": "2023-12-18T21:04:55.958Z",
+      "code": "4104",
+      "kind": "event",
+      "provider": "Microsoft-Windows-PowerShell",
+      "module": "powershell"
+    },
+    "log": {
+      "level": "verbose"
+    },
+    "message": "Creating Scriptblock text (1 of 1):\nStart-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden\n\nScriptBlock ID: 15640bf6-3e15-4826-9337-b7fe53c8eb6c\nPath: ",
+    "user": {
+      "id": "S-1-5-21-404578887-1719942888-398661523-1001"
+    },
+    "powershell": {
+      "total": 1,
+      "file": {
+        "script_block_id": "15640bf6-3e15-4826-9337-b7fe53c8eb6c",
+        "script_block_text": "Start-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden"
+      },
+      "sequence": 1
+    }
+  },
+  "fields": {
+    "event.category": [
+      "process"
+    ],
+    "host.os.name.text": [
+      "Windows 10 Pro"
+    ],
+    "winlog.provider_guid": [
+      "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+    ],
+    "winlog.provider_name": [
+      "Microsoft-Windows-PowerShell"
+    ],
+    "host.hostname": [
+      "WS-01"
+    ],
+    "winlog.computer_name": [
+      "WS-01.unsecure.biz"
+    ],
+    "host.mac": [
+      "00:15:5d:19:8d:dc"
+    ],
+    "winlog.process.pid": [
+      4172
+    ],
+    "host.os.version": [
+      "10.0"
+    ],
+    "winlog.record_id": [
+      "188386"
+    ],
+    "host.os.name": [
+      "Windows 10 Pro"
+    ],
+    "log.level": [
+      "verbose"
+    ],
+    "agent.name": [
+      "WS-01"
+    ],
+    "host.name": [
+      "WS-01.unsecure.biz"
+    ],
+    "event.kind": [
+      "event"
+    ],
+    "winlog.activity_id": [
+      "{34be8489-b017-0001-ab52-3d3517b0d901}"
+    ],
+    "powershell.file.script_block_text": [
+      "Start-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden"
+    ],
+    "winlog.version": [
+      1
+    ],
+    "user.id": [
+      "S-1-5-21-404578887-1719942888-398661523-1001"
+    ],
+    "host.os.type": [
+      "windows"
+    ],
+    "agent.hostname": [
+      "WS-01"
+    ],
+    "powershell.sequence": [
+      1
+    ],
+    "host.architecture": [
+      "x86_64"
+    ],
+    "event.provider": [
+      "Microsoft-Windows-PowerShell"
+    ],
+    "event.code": [
+      "4104"
+    ],
+    "agent.id": [
+      "c6eea392-de6b-4c7f-a1cc-c480b97fbfe9"
+    ],
+    "ecs.version": [
+      "1.11.0"
+    ],
+    "powershell.file.script_block_id": [
+      "15640bf6-3e15-4826-9337-b7fe53c8eb6c"
+    ],
+    "event.created": [
+      "2023-12-18T21:04:55.958Z"
+    ],
+    "agent.version": [
+      "7.15.1"
+    ],
+    "host.os.family": [
+      "windows"
+    ],
+    "powershell.total": [
+      1
+    ],
+    "winlog.process.thread.id": [
+      14968
+    ],
+    "winlog.user.type": [
+      "User"
+    ],
+    "host.os.build": [
+      "19045.2251"
+    ],
+    "host.ip": [
+      "fe80::7e39:9f13:7683:f5c1",
+      "172.31.51.11"
+    ],
+    "agent.type": [
+      "winlogbeat"
+    ],
+    "event.module": [
+      "powershell"
+    ],
+    "host.os.kernel": [
+      "10.0.19041.2251 (WinBuild.160101.0800)"
+    ],
+    "winlog.api": [
+      "wineventlog"
+    ],
+    "host.id": [
+      "d8fec073-f2f8-41c0-9964-1292023d0ae5"
+    ],
+    "winlog.user.identifier": [
+      "S-1-5-21-404578887-1719942888-398661523-1001"
+    ],
+    "winlog.task": [
+      "Execute a Remote Command"
+    ],
+    "winlog.user.domain": [
+      "WS-01"
+    ],
+    "winlog.user.name": [
+      "admin"
+    ],
+    "message": [
+      "Creating Scriptblock text (1 of 1):\nStart-Process \"C:\\Windows\\System32\\fodhelper.exe\" -WindowStyle Hidden\n\nScriptBlock ID: 15640bf6-3e15-4826-9337-b7fe53c8eb6c\nPath: "
+    ],
+    "winlog.event_id": [
+      "4104"
+    ],
+    "event.action": [
+      "Execute a Remote Command"
+    ],
+    "@timestamp": [
+      "2023-12-18T21:04:54.372Z"
+    ],
+    "winlog.channel": [
+      "Microsoft-Windows-PowerShell/Operational"
+    ],
+    "host.os.platform": [
+      "windows"
+    ],
+    "event.type": [
+      "info"
+    ],
+    "winlog.opcode": [
+      "On create calls"
+    ],
+    "agent.ephemeral_id": [
+      "0fbe1143-afdc-49ca-95cd-0437bf3fb49f"
+    ]
+  }
+}

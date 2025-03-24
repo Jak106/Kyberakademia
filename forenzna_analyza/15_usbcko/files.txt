@@ -1,0 +1,162 @@
+r/r 2051:	UNTITLED (Volume Label Entry)
+r/r 2052:	$ALLOC_BITMAP
+r/r 2053:	$UPCASE_TABLE
+d/d 2054:	.Spotlight-V100
++ d/d 3075:	Store-V2
+++ d/d 4099:	C7086A1F-7FB2-4904-B4A2-FBEC47CDC797
++++ r/r 10243:	psid.db
++++ r/r 10246:	tmp.SnowLeopard
++++ r/r 10249:	tmp.Lion
++++ r/r 10252:	Lion.created
++++ r/r 10255:	tmp.Cab
++++ r/r 10258:	Cab.created
++++ r/r 10261:	indexState
++++ r/r 10264:	0.indexDirectory
++++ r/r 10268:	0.indexCompactDirectory
++++ r/r 10272:	0.indexArrays
++++ r/r 10275:	0.indexHead
++++ r/r 10278:	0.shadowIndexHead
++++ r/r 10282:	0.indexIds
++++ r/r 10285:	0.indexGroups
++++ r/r 10288:	0.directoryStoreFile
++++ r/r 10292:	live.0.shadowIndexHead
++++ r/r 10296:	0.directoryStoreFile.shadow
++++ r/r 10300:	0.shadowIndexGroups
++++ r/r 10304:	0.indexUpdates
++++ r/r 10307:	0.indexPostings
++++ r/r 10310:	0.indexPositions
++++ r/r 10314:	journalAttr.2
++++ r/r 10317:	permStore
++++ r/r * 10323:	1.indexPositions
++++ r/r * 10327:	1.indexCompactDirectory
++++ r/r * 10331:	1.indexArrays
++++ r/r * 10334:	1.shadowIndexHead
++++ r/r * 10338:	tmp.merge.0.indexHead
++++ r/r * 10342:	tmp.merge.0.indexIds
++++ r/r * 10346:	tmp.merge.0.indexGroups
++++ r/r 10352:	store.db
++++ r/r 10355:	.store.db
++++ r/r 10358:	reverseDirectoryStore
++++ r/r 10362:	tmp.spotlight.state
++++ r/r 10366:	store_generation
++++ d/d 10370:	journals.corespotlight
++++ d/d 10374:	journals.live
++++ d/d 10377:	journals.live_system
+++++ r/r 52227:	journal.1
++++ d/d 10381:	journals.live_user
+++++ r/r 53251:	journal.8
+++++ r/r 53254:	retire.7
++++ d/d 10385:	journals.live_priority
++++ d/d 10389:	journals.assisted_import_pre
++++ d/d 10393:	journals.assisted_import_post
++++ d/d 10397:	journals.health_check
+++++ r/r 57347:	retire.4
+++++ r/r * 57350:	retire.3
++++ d/d 10401:	journals.migration
++++ d/d 10405:	journals.migration_secondchance
++++ r/r 10410:	journalExclusion
++++ d/d 10414:	journals.scan
+++++ r/r * 60419:	journal.1
+++++ r/r 60422:	retire.2
++++ r/r 10417:	shutdown_time
++++ r/r 10420:	reverseDirectoryStore.shadow
++++ d/d 10424:	journals.repair
++++ r/r 10427:	Cab.modified
++++ r/r 10430:	live.0.directoryStoreFile
++++ r/r 10434:	live.0.indexPositions
++++ r/r 10438:	live.0.indexPositionTable
++++ r/r 10444:	live.0.indexTermIds
++++ r/r 10448:	live.0.shadowIndexTermIds
++++ r/r * 10452:	0.shadowIndexGroups
++++ r/r * 10456:	1.indexIds
++++ r/r * 10459:	tmp.merge.0.indexPostings
++++ r/r 10463:	live.0.indexDirectory
++++ r/r * 10467:	tmp.merge.0.shadowIndexHead
++++ r/r * 10471:	tmp.merge.0.indexPositions
++++ r/r * 10475:	tmp.merge.0.directoryStoreFile.shadow
++++ r/r * 10482:	1.shadowIndexGroups
++++ r/r * 10486:	tmp.merge.0.indexDirectory
++++ r/r 10491:	store.updates
++++ r/r 10494:	reverseStore.updates
++++ r/r 10498:	live.0.indexCompactDirectory
++++ r/r 10502:	tmp.spotlight.loc
++++ r/r 10506:	live.0.indexArrays
++++ r/r 10510:	live.0.indexIds
++++ r/r 10513:	live.0.indexPostings
++++ r/r * 10519:	0.indexHead
++++ r/r 10522:	live.0.shadowIndexGroups
++++ r/r 10526:	live.0.indexGroups
++++ r/r * 10530:	tmp.merge.0.indexCompactDirectory
++++ r/r * 10535:	1.indexHead
++++ r/r 10538:	live.0.shadowIndexDirectory
++++ r/r 10542:	live.0.indexHead
++++ r/r 10546:	live.0.directoryStoreFile.shadow
++++ r/r 10551:	live.0.indexUpdates
++++ r/r * 10555:	tmp.merge.0.indexArrays
++++ r/r * 10559:	tmp.merge.0.indexUpdates
++++ r/r 10563:	live.0.shadowIndexArrays
++++ r/r 10567:	live.0.shadowIndexCompactDirectory
++++ r/r 10572:	live.0.shadowIndexPositionTable
++++ r/r * 10577:	tmp.merge.0.directoryStoreFile
++++ r/r * 10581:	tmp.merge.0.shadowIndexGroups
++++ r/r * 10585:	remapping0
++++ r/r * 10590:	tmp.1.cmpt..mds.201.4.compactPayloads2.idx
++ d/d 3078:	Store-V1
+++ r/r 5123:	VolumeConfig.plist
++ r/r 3081:	VolumeConfiguration.plist
+d/d * 2057:	.fseventsd
+d/d 2060:	Videos
++ r/r * 65539:	647597071.mp4
++ r/r * 65542:	._647597071.mp4
++ r/r 65545:	forest_sky_stuff.mp4
++ r/r 65551:	girls_riding_rollercoaster.mp4
++ r/r 65555:	._girls_riding_rollercoaster.mp4
++ r/r 65560:	._forest_sky_stuff.mp4
+d/d 2063:	Pictures
++ r/r 21507:	cook-food-kitchen-eat-54455.jpg
++ r/r 21512:	._cook-food-kitchen-eat-54455.jpg
++ r/r 21517:	food-salad-restaurant-person.jpg
++ r/r 21522:	._food-salad-restaurant-person.jpg
++ r/r 21527:	pexels-photo-326278.jpg
++ r/r 21531:	._pexels-photo-326278.jpg
++ r/r 21535:	salmon-dish-food-meal-46239.jpg
++ r/r 21540:	._salmon-dish-food-meal-46239.jpg
++ r/r 21545:	pexels-photo-70497.jpg
++ r/r 21549:	._pexels-photo-70497.jpg
++ r/r 21553:	pexels-photo-376464.jpg
++ r/r 21557:	._pexels-photo-376464.jpg
++ r/r 21561:	pexels-photo-372882.jpg
++ r/r 21565:	._pexels-photo-372882.jpg
++ r/r 21569:	pexels-photo-139259.jpg
++ r/r 21573:	._pexels-photo-139259.jpg
++ r/r 21577:	potatoes-french-mourning-funny-162971.jpg
++ r/r 21582:	._potatoes-french-mourning-funny-162971.jpg
++ r/r 21587:	food-dinner-pasta-spaghetti-8500.jpg
++ r/r 21592:	._food-dinner-pasta-spaghetti-8500.jpg
++ r/r 21597:	pexels-photo-247685.png
++ r/r 21601:	._pexels-photo-247685.png
++ r/r 21605:	pexels-photo-262918.jpg
++ r/r 21609:	._pexels-photo-262918.jpg
++ r/r 21613:	food-dinner-lemon-rice.jpg
++ r/r 21617:	._food-dinner-lemon-rice.jpg
+d/d 2066:	Documents
++ r/r * 63491:	passwords.txt
++ r/r 63494:	fw9.pdf
++ r/r * 63497:	._passwords.txt
++ r/r 63500:	._fw9.pdf
++ r/r * 63503:	xPYXzkgoBCRnMU
++ r/r 63506:	passwords.txt.zip
++ r/r * 63510:	._xPYXzkgoBCRnMU
+d/d 2069:	.TemporaryItems
++ d/d 842755:	folders.501
+++ d/d 843779:	TemporaryItems
++++ d/d * 844803:	(A Document Being Saved By TextEdit)
++++ r/r * 844808:	._(A Document Being Saved By TextEdit)
+d/d 2072:	.Trashes
++ d/d 75779:	501
+++ r/r * 845827:	passwords.txt
+++ r/r * 845830:	._passwords.txt
++ r/r 75782:	._501
+v/v 125286371:	$MBR
+v/v 125286372:	$FAT1
+V/V 125286373:	$OrphanFiles

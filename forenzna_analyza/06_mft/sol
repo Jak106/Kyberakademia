@@ -1,0 +1,4 @@
+1. From the task i know that i am looking for hyperlink
+
+2. I decided to scan the file using virustotal, it found out that document contact domain:
+ schemas.mrkvosoft.com which means that the flag is http://schemas.mrkvosoft.com
